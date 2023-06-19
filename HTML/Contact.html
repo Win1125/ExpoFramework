@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frameworks 2023</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
@@ -49,14 +50,71 @@
             </div>
         </div>
     </header>
-    
 
-    <!-- Main -->
-    <main>
 
-        <p>Contenido Frameworks Backend</p>
+    <!-- Section -->
+    <section class="container-contact">
+        <header>Formulario de Contacto</header>
+        <form action="#" class="form" method="post">
+            <div class="input-box">
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingresa tu nombre completo" required />
+            </div>
+            <div class="input-box">
+                <label>Correo electronico</label>
+                <input type="text" placeholder="Ingresa tu Correo electronico" required />
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label>Numero de telefono</label>
+                    <input type="number" placeholder="Ingresa tu Numero de telefono" required />
+                </div>
+                <div class="input-box">
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" placeholder="Ingresa tu Fecha de Nacimiento" required />
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Genero</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">Hombre</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">Mujer</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">Prefiero no decir</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box address">
+                <label>Dirección</label>
+                <input type="text" placeholder="Ingresa tu dirección" required />
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Pais</option>
+                            <option>Colombia</option>
+                            <option>Chile</option>
+                            <option>Ecuador</option>
+                            <option>Argentina</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Ingresa tu ciudad" required />
+                </div>
+                <div class="column">
+                    <input type="text" placeholder="Ingresa tu Barrio" required />
+                    <input type="number" placeholder="Codigo Postal" required />
+                </div>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </section>
 
-    </main>
 
     <!-- Footer -->
     <footer class="footer">
