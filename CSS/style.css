@@ -84,6 +84,16 @@ body {
     margin-bottom: 20px;
 }
 
+.seccion img{
+    width: 500px;
+    height: 350px;
+}
+
+.seccion .img-react{
+    width: 600px;
+    height: auto;
+}
+
 .encabezado {
     display: flex;
     align-items: center;
