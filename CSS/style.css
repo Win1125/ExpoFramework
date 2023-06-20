@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 html {
+    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
@@ -89,17 +90,6 @@ body {
     font-weight: 700;
     padding-top: 20px;
     margin-bottom: 20px;
-}
-
-.encabezado a {
-    display: inline-flex;
-    align-items: center;
-    margin-left: 10px;
-}
-
-.encabezado a svg {
-    width: 26px;
-    height: 26px;
 }
 
 
