@@ -126,12 +126,12 @@ body {
     margin-bottom: 20px;
 }
 
-.seccion img{
+.seccion img {
     width: 500px;
     height: 350px;
 }
 
-.seccion .img-react{
+.seccion .img-react {
     width: 600px;
     height: auto;
 }
@@ -282,11 +282,17 @@ header {
     justify-content: space-between;
     padding: 0 50px;
     background: #0b2239;
+    /*width: 100%;
+    position: fixed;
+    z-index: 100;*/
 }
 
 header .header-left {
     display: flex;
     align-items: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 header .header-left .logo {
